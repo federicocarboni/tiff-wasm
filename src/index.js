@@ -58,7 +58,7 @@ function readString(memory, ptr) {
  */
 function receiveInstance(tiff, instance) {
   tiff.instance_ = instance;
-  tiff.exports_ = instance.exports;
+  tiff.exports_ = /** @type {any} */ (instance.exports);
   // Initialize memory views.
   tiff.updateViews_();
   // Run constructors.
@@ -69,13 +69,25 @@ export class Tiff {
   /** @private */
   constructor() {
     var module = this;
-    /** @type {WebAssembly.Instance} @private */
+    /**
+     * @type {WebAssembly.Instance}
+     * @internal
+     */
     this.instance_;
-    /** @type {Exports} @private */
+    /**
+     * @type {Exports}
+     * @internal
+     */
     this.exports_;
-    /** @type {DataView} @private */
+    /**
+     * @type {DataView}
+     * @internal
+     */
     this.memory_;
-    /** @type {Uint8Array} @private */
+    /**
+     * @type {Uint8Array}
+     * @internal
+     */
     this.memory8_;
     this.TiffDecoder = class TiffDecoder {
       /** @param {Uint8Array} data */
@@ -89,7 +101,7 @@ export class Tiff {
           console.log(ptr);
           module.memory8_.set(data, ptr);
         }
-        /** @private */
+        /** @internal */
         this.ptr_ = module.exports_.tiff_open(ptr, size);
         if (this.ptr_ === 0) {
           throw new Error();
@@ -99,22 +111,6 @@ export class Tiff {
         // tiff_close also takes care of free'ing memory
         module.exports_.tiff_close(this.ptr_);
         this.ptr_ = 0;
-      }
-      /** @param {number} tag @private */
-      getField32_(tag) {
-        const value = module.exports_._emscripten_stack_alloc(4);
-        if (module.exports_.tiff_field(this.ptr_, tag, value) !== 0) {
-          // throw new Error();
-        }
-        return module.memory_.getUint32(value, true);
-      }
-      /** @param {number} tag @private */
-      getField16_(tag) {
-        const value = module.exports_._emscripten_stack_alloc(2);
-        if (module.exports_.tiff_field(this.ptr_, tag, value) !== 0) {
-          // throw new Error();
-        }
-        return module.memory_.getUint16(value, true);
       }
       decodeImageData() {
         const width = module.exports_.tiff_field32(
@@ -163,11 +159,13 @@ export class Tiff {
   freeImageData(imageData) {
     this.exports_.free(imageData.data.byteOffset);
   }
+  /** @internal */
   updateViews_() {
     const buffer = this.exports_.memory.buffer;
     this.memory_ = new DataView(buffer);
     this.memory8_ = new Uint8Array(buffer);
   }
+  /** @internal */
   getImportObject_() {
     const emscripten_notify_memory_growth = () => {
       this.updateViews_();
