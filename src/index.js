@@ -98,7 +98,6 @@ export class Tiff {
           ptr = data.byteOffset;
         } else {
           ptr = module.exports_.malloc(size);
-          console.log(ptr);
           module.memory8_.set(data, ptr);
         }
         /** @internal */
@@ -126,7 +125,6 @@ export class Tiff {
           TIFFTAG_ORIENTATION,
         );
         const size = width * height * 4;
-        console.log(width, height, orientation);
         const raster = module.exports_.malloc(size);
         const ret = module.exports_.tiff_decode(
           this.ptr_,
