@@ -1,0 +1,232 @@
+[
+{
+  "directory": "/code/tiff-wasm/build",
+  "command": "/usr/bin/clang -I/code/tiff-wasm/tiff -I/code/tiff-wasm/build/_deps/libtiff-src/libtiff -I/code/tiff-wasm/build/_deps/libtiff-build/libtiff -g -o CMakeFiles/tiff-wasm.dir/src/wrapper.c.o -c /code/tiff-wasm/src/wrapper.c",
+  "file": "/code/tiff-wasm/src/wrapper.c"
+},
+{
+  "directory": "/code/tiff-wasm/build",
+  "command": "/usr/bin/clang -D_FILE_OFFSET_BITS=64 -I/code/tiff-wasm/build/_deps/libtiff-src/libtiff -I/code/tiff-wasm/build/_deps/libtiff-build/libtiff  -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing -g -std=gnu99 -o _deps/libtiff-build/libtiff/CMakeFiles/tiff.dir/tif_aux.c.o -c /code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_aux.c",
+  "file": "/code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_aux.c"
+},
+{
+  "directory": "/code/tiff-wasm/build",
+  "command": "/usr/bin/clang -D_FILE_OFFSET_BITS=64 -I/code/tiff-wasm/build/_deps/libtiff-src/libtiff -I/code/tiff-wasm/build/_deps/libtiff-build/libtiff  -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing -g -std=gnu99 -o _deps/libtiff-build/libtiff/CMakeFiles/tiff.dir/tif_close.c.o -c /code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_close.c",
+  "file": "/code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_close.c"
+},
+{
+  "directory": "/code/tiff-wasm/build",
+  "command": "/usr/bin/clang -D_FILE_OFFSET_BITS=64 -I/code/tiff-wasm/build/_deps/libtiff-src/libtiff -I/code/tiff-wasm/build/_deps/libtiff-build/libtiff  -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing -g -std=gnu99 -o _deps/libtiff-build/libtiff/CMakeFiles/tiff.dir/tif_codec.c.o -c /code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_codec.c",
+  "file": "/code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_codec.c"
+},
+{
+  "directory": "/code/tiff-wasm/build",
+  "command": "/usr/bin/clang -D_FILE_OFFSET_BITS=64 -I/code/tiff-wasm/build/_deps/libtiff-src/libtiff -I/code/tiff-wasm/build/_deps/libtiff-build/libtiff  -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing -g -std=gnu99 -o _deps/libtiff-build/libtiff/CMakeFiles/tiff.dir/tif_color.c.o -c /code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_color.c",
+  "file": "/code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_color.c"
+},
+{
+  "directory": "/code/tiff-wasm/build",
+  "command": "/usr/bin/clang -D_FILE_OFFSET_BITS=64 -I/code/tiff-wasm/build/_deps/libtiff-src/libtiff -I/code/tiff-wasm/build/_deps/libtiff-build/libtiff  -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing -g -std=gnu99 -o _deps/libtiff-build/libtiff/CMakeFiles/tiff.dir/tif_compress.c.o -c /code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_compress.c",
+  "file": "/code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_compress.c"
+},
+{
+  "directory": "/code/tiff-wasm/build",
+  "command": "/usr/bin/clang -D_FILE_OFFSET_BITS=64 -I/code/tiff-wasm/build/_deps/libtiff-src/libtiff -I/code/tiff-wasm/build/_deps/libtiff-build/libtiff  -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing -g -std=gnu99 -o _deps/libtiff-build/libtiff/CMakeFiles/tiff.dir/tif_dir.c.o -c /code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_dir.c",
+  "file": "/code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_dir.c"
+},
+{
+  "directory": "/code/tiff-wasm/build",
+  "command": "/usr/bin/clang -D_FILE_OFFSET_BITS=64 -I/code/tiff-wasm/build/_deps/libtiff-src/libtiff -I/code/tiff-wasm/build/_deps/libtiff-build/libtiff  -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing -g -std=gnu99 -o _deps/libtiff-build/libtiff/CMakeFiles/tiff.dir/tif_dirinfo.c.o -c /code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_dirinfo.c",
+  "file": "/code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_dirinfo.c"
+},
+{
+  "directory": "/code/tiff-wasm/build",
+  "command": "/usr/bin/clang -D_FILE_OFFSET_BITS=64 -I/code/tiff-wasm/build/_deps/libtiff-src/libtiff -I/code/tiff-wasm/build/_deps/libtiff-build/libtiff  -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing -g -std=gnu99 -o _deps/libtiff-build/libtiff/CMakeFiles/tiff.dir/tif_dirread.c.o -c /code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_dirread.c",
+  "file": "/code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_dirread.c"
+},
+{
+  "directory": "/code/tiff-wasm/build",
+  "command": "/usr/bin/clang -D_FILE_OFFSET_BITS=64 -I/code/tiff-wasm/build/_deps/libtiff-src/libtiff -I/code/tiff-wasm/build/_deps/libtiff-build/libtiff  -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing -g -std=gnu99 -o _deps/libtiff-build/libtiff/CMakeFiles/tiff.dir/tif_dirwrite.c.o -c /code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_dirwrite.c",
+  "file": "/code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_dirwrite.c"
+},
+{
+  "directory": "/code/tiff-wasm/build",
+  "command": "/usr/bin/clang -D_FILE_OFFSET_BITS=64 -I/code/tiff-wasm/build/_deps/libtiff-src/libtiff -I/code/tiff-wasm/build/_deps/libtiff-build/libtiff  -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing -g -std=gnu99 -o _deps/libtiff-build/libtiff/CMakeFiles/tiff.dir/tif_dumpmode.c.o -c /code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_dumpmode.c",
+  "file": "/code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_dumpmode.c"
+},
+{
+  "directory": "/code/tiff-wasm/build",
+  "command": "/usr/bin/clang -D_FILE_OFFSET_BITS=64 -I/code/tiff-wasm/build/_deps/libtiff-src/libtiff -I/code/tiff-wasm/build/_deps/libtiff-build/libtiff  -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing -g -std=gnu99 -o _deps/libtiff-build/libtiff/CMakeFiles/tiff.dir/tif_error.c.o -c /code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_error.c",
+  "file": "/code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_error.c"
+},
+{
+  "directory": "/code/tiff-wasm/build",
+  "command": "/usr/bin/clang -D_FILE_OFFSET_BITS=64 -I/code/tiff-wasm/build/_deps/libtiff-src/libtiff -I/code/tiff-wasm/build/_deps/libtiff-build/libtiff  -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing -g -std=gnu99 -o _deps/libtiff-build/libtiff/CMakeFiles/tiff.dir/tif_extension.c.o -c /code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_extension.c",
+  "file": "/code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_extension.c"
+},
+{
+  "directory": "/code/tiff-wasm/build",
+  "command": "/usr/bin/clang -D_FILE_OFFSET_BITS=64 -I/code/tiff-wasm/build/_deps/libtiff-src/libtiff -I/code/tiff-wasm/build/_deps/libtiff-build/libtiff  -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing -g -std=gnu99 -o _deps/libtiff-build/libtiff/CMakeFiles/tiff.dir/tif_fax3.c.o -c /code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_fax3.c",
+  "file": "/code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_fax3.c"
+},
+{
+  "directory": "/code/tiff-wasm/build",
+  "command": "/usr/bin/clang -D_FILE_OFFSET_BITS=64 -I/code/tiff-wasm/build/_deps/libtiff-src/libtiff -I/code/tiff-wasm/build/_deps/libtiff-build/libtiff  -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing -g -std=gnu99 -o _deps/libtiff-build/libtiff/CMakeFiles/tiff.dir/tif_fax3sm.c.o -c /code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_fax3sm.c",
+  "file": "/code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_fax3sm.c"
+},
+{
+  "directory": "/code/tiff-wasm/build",
+  "command": "/usr/bin/clang -D_FILE_OFFSET_BITS=64 -I/code/tiff-wasm/build/_deps/libtiff-src/libtiff -I/code/tiff-wasm/build/_deps/libtiff-build/libtiff  -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing -g -std=gnu99 -o _deps/libtiff-build/libtiff/CMakeFiles/tiff.dir/tif_flush.c.o -c /code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_flush.c",
+  "file": "/code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_flush.c"
+},
+{
+  "directory": "/code/tiff-wasm/build",
+  "command": "/usr/bin/clang -D_FILE_OFFSET_BITS=64 -I/code/tiff-wasm/build/_deps/libtiff-src/libtiff -I/code/tiff-wasm/build/_deps/libtiff-build/libtiff  -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing -g -std=gnu99 -o _deps/libtiff-build/libtiff/CMakeFiles/tiff.dir/tif_getimage.c.o -c /code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_getimage.c",
+  "file": "/code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_getimage.c"
+},
+{
+  "directory": "/code/tiff-wasm/build",
+  "command": "/usr/bin/clang -D_FILE_OFFSET_BITS=64 -I/code/tiff-wasm/build/_deps/libtiff-src/libtiff -I/code/tiff-wasm/build/_deps/libtiff-build/libtiff  -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing -g -std=gnu99 -o _deps/libtiff-build/libtiff/CMakeFiles/tiff.dir/tif_hash_set.c.o -c /code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_hash_set.c",
+  "file": "/code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_hash_set.c"
+},
+{
+  "directory": "/code/tiff-wasm/build",
+  "command": "/usr/bin/clang -D_FILE_OFFSET_BITS=64 -I/code/tiff-wasm/build/_deps/libtiff-src/libtiff -I/code/tiff-wasm/build/_deps/libtiff-build/libtiff  -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing -g -std=gnu99 -o _deps/libtiff-build/libtiff/CMakeFiles/tiff.dir/tif_jbig.c.o -c /code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_jbig.c",
+  "file": "/code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_jbig.c"
+},
+{
+  "directory": "/code/tiff-wasm/build",
+  "command": "/usr/bin/clang -D_FILE_OFFSET_BITS=64 -I/code/tiff-wasm/build/_deps/libtiff-src/libtiff -I/code/tiff-wasm/build/_deps/libtiff-build/libtiff  -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing -g -std=gnu99 -o _deps/libtiff-build/libtiff/CMakeFiles/tiff.dir/tif_jpeg.c.o -c /code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_jpeg.c",
+  "file": "/code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_jpeg.c"
+},
+{
+  "directory": "/code/tiff-wasm/build",
+  "command": "/usr/bin/clang -D_FILE_OFFSET_BITS=64 -I/code/tiff-wasm/build/_deps/libtiff-src/libtiff -I/code/tiff-wasm/build/_deps/libtiff-build/libtiff  -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing -g -std=gnu99 -o _deps/libtiff-build/libtiff/CMakeFiles/tiff.dir/tif_jpeg_12.c.o -c /code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_jpeg_12.c",
+  "file": "/code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_jpeg_12.c"
+},
+{
+  "directory": "/code/tiff-wasm/build",
+  "command": "/usr/bin/clang -D_FILE_OFFSET_BITS=64 -I/code/tiff-wasm/build/_deps/libtiff-src/libtiff -I/code/tiff-wasm/build/_deps/libtiff-build/libtiff  -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing -g -std=gnu99 -o _deps/libtiff-build/libtiff/CMakeFiles/tiff.dir/tif_lerc.c.o -c /code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_lerc.c",
+  "file": "/code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_lerc.c"
+},
+{
+  "directory": "/code/tiff-wasm/build",
+  "command": "/usr/bin/clang -D_FILE_OFFSET_BITS=64 -I/code/tiff-wasm/build/_deps/libtiff-src/libtiff -I/code/tiff-wasm/build/_deps/libtiff-build/libtiff  -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing -g -std=gnu99 -o _deps/libtiff-build/libtiff/CMakeFiles/tiff.dir/tif_luv.c.o -c /code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_luv.c",
+  "file": "/code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_luv.c"
+},
+{
+  "directory": "/code/tiff-wasm/build",
+  "command": "/usr/bin/clang -D_FILE_OFFSET_BITS=64 -I/code/tiff-wasm/build/_deps/libtiff-src/libtiff -I/code/tiff-wasm/build/_deps/libtiff-build/libtiff  -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing -g -std=gnu99 -o _deps/libtiff-build/libtiff/CMakeFiles/tiff.dir/tif_lzma.c.o -c /code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_lzma.c",
+  "file": "/code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_lzma.c"
+},
+{
+  "directory": "/code/tiff-wasm/build",
+  "command": "/usr/bin/clang -D_FILE_OFFSET_BITS=64 -I/code/tiff-wasm/build/_deps/libtiff-src/libtiff -I/code/tiff-wasm/build/_deps/libtiff-build/libtiff  -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing -g -std=gnu99 -o _deps/libtiff-build/libtiff/CMakeFiles/tiff.dir/tif_lzw.c.o -c /code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_lzw.c",
+  "file": "/code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_lzw.c"
+},
+{
+  "directory": "/code/tiff-wasm/build",
+  "command": "/usr/bin/clang -D_FILE_OFFSET_BITS=64 -I/code/tiff-wasm/build/_deps/libtiff-src/libtiff -I/code/tiff-wasm/build/_deps/libtiff-build/libtiff  -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing -g -std=gnu99 -o _deps/libtiff-build/libtiff/CMakeFiles/tiff.dir/tif_next.c.o -c /code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_next.c",
+  "file": "/code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_next.c"
+},
+{
+  "directory": "/code/tiff-wasm/build",
+  "command": "/usr/bin/clang -D_FILE_OFFSET_BITS=64 -I/code/tiff-wasm/build/_deps/libtiff-src/libtiff -I/code/tiff-wasm/build/_deps/libtiff-build/libtiff  -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing -g -std=gnu99 -o _deps/libtiff-build/libtiff/CMakeFiles/tiff.dir/tif_ojpeg.c.o -c /code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_ojpeg.c",
+  "file": "/code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_ojpeg.c"
+},
+{
+  "directory": "/code/tiff-wasm/build",
+  "command": "/usr/bin/clang -D_FILE_OFFSET_BITS=64 -I/code/tiff-wasm/build/_deps/libtiff-src/libtiff -I/code/tiff-wasm/build/_deps/libtiff-build/libtiff  -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing -g -std=gnu99 -o _deps/libtiff-build/libtiff/CMakeFiles/tiff.dir/tif_open.c.o -c /code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_open.c",
+  "file": "/code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_open.c"
+},
+{
+  "directory": "/code/tiff-wasm/build",
+  "command": "/usr/bin/clang -D_FILE_OFFSET_BITS=64 -I/code/tiff-wasm/build/_deps/libtiff-src/libtiff -I/code/tiff-wasm/build/_deps/libtiff-build/libtiff  -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing -g -std=gnu99 -o _deps/libtiff-build/libtiff/CMakeFiles/tiff.dir/tif_packbits.c.o -c /code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_packbits.c",
+  "file": "/code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_packbits.c"
+},
+{
+  "directory": "/code/tiff-wasm/build",
+  "command": "/usr/bin/clang -D_FILE_OFFSET_BITS=64 -I/code/tiff-wasm/build/_deps/libtiff-src/libtiff -I/code/tiff-wasm/build/_deps/libtiff-build/libtiff  -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing -g -std=gnu99 -o _deps/libtiff-build/libtiff/CMakeFiles/tiff.dir/tif_pixarlog.c.o -c /code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_pixarlog.c",
+  "file": "/code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_pixarlog.c"
+},
+{
+  "directory": "/code/tiff-wasm/build",
+  "command": "/usr/bin/clang -D_FILE_OFFSET_BITS=64 -I/code/tiff-wasm/build/_deps/libtiff-src/libtiff -I/code/tiff-wasm/build/_deps/libtiff-build/libtiff  -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing -g -std=gnu99 -o _deps/libtiff-build/libtiff/CMakeFiles/tiff.dir/tif_predict.c.o -c /code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_predict.c",
+  "file": "/code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_predict.c"
+},
+{
+  "directory": "/code/tiff-wasm/build",
+  "command": "/usr/bin/clang -D_FILE_OFFSET_BITS=64 -I/code/tiff-wasm/build/_deps/libtiff-src/libtiff -I/code/tiff-wasm/build/_deps/libtiff-build/libtiff  -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing -g -std=gnu99 -o _deps/libtiff-build/libtiff/CMakeFiles/tiff.dir/tif_print.c.o -c /code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_print.c",
+  "file": "/code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_print.c"
+},
+{
+  "directory": "/code/tiff-wasm/build",
+  "command": "/usr/bin/clang -D_FILE_OFFSET_BITS=64 -I/code/tiff-wasm/build/_deps/libtiff-src/libtiff -I/code/tiff-wasm/build/_deps/libtiff-build/libtiff  -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing -g -std=gnu99 -o _deps/libtiff-build/libtiff/CMakeFiles/tiff.dir/tif_read.c.o -c /code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_read.c",
+  "file": "/code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_read.c"
+},
+{
+  "directory": "/code/tiff-wasm/build",
+  "command": "/usr/bin/clang -D_FILE_OFFSET_BITS=64 -I/code/tiff-wasm/build/_deps/libtiff-src/libtiff -I/code/tiff-wasm/build/_deps/libtiff-build/libtiff  -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing -g -std=gnu99 -o _deps/libtiff-build/libtiff/CMakeFiles/tiff.dir/tif_strip.c.o -c /code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_strip.c",
+  "file": "/code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_strip.c"
+},
+{
+  "directory": "/code/tiff-wasm/build",
+  "command": "/usr/bin/clang -D_FILE_OFFSET_BITS=64 -I/code/tiff-wasm/build/_deps/libtiff-src/libtiff -I/code/tiff-wasm/build/_deps/libtiff-build/libtiff  -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing -g -std=gnu99 -o _deps/libtiff-build/libtiff/CMakeFiles/tiff.dir/tif_swab.c.o -c /code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_swab.c",
+  "file": "/code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_swab.c"
+},
+{
+  "directory": "/code/tiff-wasm/build",
+  "command": "/usr/bin/clang -D_FILE_OFFSET_BITS=64 -I/code/tiff-wasm/build/_deps/libtiff-src/libtiff -I/code/tiff-wasm/build/_deps/libtiff-build/libtiff  -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing -g -std=gnu99 -o _deps/libtiff-build/libtiff/CMakeFiles/tiff.dir/tif_thunder.c.o -c /code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_thunder.c",
+  "file": "/code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_thunder.c"
+},
+{
+  "directory": "/code/tiff-wasm/build",
+  "command": "/usr/bin/clang -D_FILE_OFFSET_BITS=64 -I/code/tiff-wasm/build/_deps/libtiff-src/libtiff -I/code/tiff-wasm/build/_deps/libtiff-build/libtiff  -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing -g -std=gnu99 -o _deps/libtiff-build/libtiff/CMakeFiles/tiff.dir/tif_tile.c.o -c /code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_tile.c",
+  "file": "/code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_tile.c"
+},
+{
+  "directory": "/code/tiff-wasm/build",
+  "command": "/usr/bin/clang -D_FILE_OFFSET_BITS=64 -I/code/tiff-wasm/build/_deps/libtiff-src/libtiff -I/code/tiff-wasm/build/_deps/libtiff-build/libtiff  -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing -g -std=gnu99 -o _deps/libtiff-build/libtiff/CMakeFiles/tiff.dir/tif_version.c.o -c /code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_version.c",
+  "file": "/code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_version.c"
+},
+{
+  "directory": "/code/tiff-wasm/build",
+  "command": "/usr/bin/clang -D_FILE_OFFSET_BITS=64 -I/code/tiff-wasm/build/_deps/libtiff-src/libtiff -I/code/tiff-wasm/build/_deps/libtiff-build/libtiff  -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing -g -std=gnu99 -o _deps/libtiff-build/libtiff/CMakeFiles/tiff.dir/tif_warning.c.o -c /code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_warning.c",
+  "file": "/code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_warning.c"
+},
+{
+  "directory": "/code/tiff-wasm/build",
+  "command": "/usr/bin/clang -D_FILE_OFFSET_BITS=64 -I/code/tiff-wasm/build/_deps/libtiff-src/libtiff -I/code/tiff-wasm/build/_deps/libtiff-build/libtiff  -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing -g -std=gnu99 -o _deps/libtiff-build/libtiff/CMakeFiles/tiff.dir/tif_webp.c.o -c /code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_webp.c",
+  "file": "/code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_webp.c"
+},
+{
+  "directory": "/code/tiff-wasm/build",
+  "command": "/usr/bin/clang -D_FILE_OFFSET_BITS=64 -I/code/tiff-wasm/build/_deps/libtiff-src/libtiff -I/code/tiff-wasm/build/_deps/libtiff-build/libtiff  -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing -g -std=gnu99 -o _deps/libtiff-build/libtiff/CMakeFiles/tiff.dir/tif_write.c.o -c /code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_write.c",
+  "file": "/code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_write.c"
+},
+{
+  "directory": "/code/tiff-wasm/build",
+  "command": "/usr/bin/clang -D_FILE_OFFSET_BITS=64 -I/code/tiff-wasm/build/_deps/libtiff-src/libtiff -I/code/tiff-wasm/build/_deps/libtiff-build/libtiff  -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing -g -std=gnu99 -o _deps/libtiff-build/libtiff/CMakeFiles/tiff.dir/tif_zip.c.o -c /code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_zip.c",
+  "file": "/code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_zip.c"
+},
+{
+  "directory": "/code/tiff-wasm/build",
+  "command": "/usr/bin/clang -D_FILE_OFFSET_BITS=64 -I/code/tiff-wasm/build/_deps/libtiff-src/libtiff -I/code/tiff-wasm/build/_deps/libtiff-build/libtiff  -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing -g -std=gnu99 -o _deps/libtiff-build/libtiff/CMakeFiles/tiff.dir/tif_zstd.c.o -c /code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_zstd.c",
+  "file": "/code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_zstd.c"
+},
+{
+  "directory": "/code/tiff-wasm/build",
+  "command": "/usr/bin/clang -D_FILE_OFFSET_BITS=64 -I/code/tiff-wasm/build/_deps/libtiff-src/libtiff -I/code/tiff-wasm/build/_deps/libtiff-build/libtiff  -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing -g -std=gnu99 -o _deps/libtiff-build/libtiff/CMakeFiles/tiff.dir/tif_unix.c.o -c /code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_unix.c",
+  "file": "/code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_unix.c"
+},
+{
+  "directory": "/code/tiff-wasm/build",
+  "command": "/usr/bin/clang++ -D_FILE_OFFSET_BITS=64 -I/code/tiff-wasm/build/_deps/libtiff-src/libtiff -I/code/tiff-wasm/build/_deps/libtiff-build/libtiff -g -o _deps/libtiff-build/libtiff/CMakeFiles/tiffxx.dir/tif_stream.cxx.o -c /code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_stream.cxx",
+  "file": "/code/tiff-wasm/build/_deps/libtiff-src/libtiff/tif_stream.cxx"
+},
+{
+  "directory": "/code/tiff-wasm/build",
+  "command": "/usr/bin/clang -D_FILE_OFFSET_BITS=64 -I/code/tiff-wasm/build/_deps/libtiff-src/libtiff -I/code/tiff-wasm/build/_deps/libtiff-build/libtiff -I/code/tiff-wasm/build/_deps/libtiff-build/port -I/code/tiff-wasm/build/_deps/libtiff-src/port  -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing -g -std=gnu99 -o _deps/libtiff-build/libtiff/CMakeFiles/tiff_mkg3states.dir/mkg3states.c.o -c /code/tiff-wasm/build/_deps/libtiff-src/libtiff/mkg3states.c",
+  "file": "/code/tiff-wasm/build/_deps/libtiff-src/libtiff/mkg3states.c"
+}
+]

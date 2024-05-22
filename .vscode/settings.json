@@ -1,0 +1,10 @@
+{
+  // Automatically configure CMake when project is opened
+  "cmake.configureOnOpen": true,
+
+  // Enables exporting compile_commands.json.
+  "cmake.exportCompileCommandsFile": true,
+
+  // Copy compile_commands.json to workspace after a successful configure.
+  "cmake.copyCompileCommands": "${workspaceFolder}/compile_commands.json",
+}
