@@ -4,13 +4,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": "./dist/index.js",
     "./tiff.wasm": "./dist/tiff.wasm"
   },
   "scripts": {
     "build-cxx": "mkdir -p emscripten-build && cd emscripten-build && emcmake cmake .. -DCMAKE_BUILD_TYPE=MinSizeRel && emmake make -j$(nproc)",
-    "build": "npm run build-cxx && cp emscripten-build/tiff-wasm.wasm dist/tiff.wasm && tsc && esbuild --bundle src/index.js --outfile=dist/index.js --sourcemap --target=es2017 --mangle-props=_\\$ --format=esm",
+    "build": "npm run build-cxx && mkdir -p dist && cp emscripten-build/tiff-wasm.wasm dist/tiff.wasm && tsc && esbuild --bundle src/index.js --outfile=dist/index.js --sourcemap --target=es2017 --mangle-props=_\\$ --format=esm",
     "install": "npm run build",
     "test": ""
   },
